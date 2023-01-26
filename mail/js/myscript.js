@@ -18,6 +18,7 @@ btnLoginEl.addEventListener(
                 document.getElementById("loginResult").innerHTML = "La tua email non ha i permessi necessari.";
             } else {
                 document.getElementById("loginResult").innerHTML = "Puoi entrare.";
+                i = adminEmails.length;
             }
         }
     }
